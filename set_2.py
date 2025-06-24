@@ -157,37 +157,6 @@ def vigenere_cipher(message, key):
     Example:
     vigenere_cipher("A C", "KEY") -> "K A"
 
-    If needed, the keyphrase is extended to match the length of the key.
-        If the key is "KEY" and the message is "LONGTEXT",
-        the key will be extended to be "KEYKEYKE".
-
-    Parameters
-    ----------
-    message: str
-        a string of uppercase English letters and spaces.
-    key: str
-        a string of uppercase English letters. Will never be longer than the message.
-        Will never contain spaces.
-
-    Returns
-    -------
-    str
-        the message, shifted appropriately.
-    '''
-    # Replace `pass` with your code.
-    # Stay within the function. Only use the parameters as input. The function should return your answer.
-
-def vigenere_cipher(message, key):
-    '''Vigenere Cipher.
-
-    Encrypts a message using a keyphrase instead of a static number.
-    Every letter in the message is shifted by the number represented by the
-        respective letter in the key.
-    Spaces should be ignored.
-
-    Example:
-    vigenere_cipher("A C", "KEY") -> "K A"
-
     If needed, the key is extended to match the length of the message.
         If the key is "KEY" and the message is "LONGTEXT",
         the key will be extended to be "KEYKEYKE".
